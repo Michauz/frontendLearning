@@ -1,0 +1,10 @@
+div{
+	background: blue;
+	width: 400px;
+	height: 400px;
+	transition: background 750ms ease;
+
+}
+div:hover{
+	background: red;
+}

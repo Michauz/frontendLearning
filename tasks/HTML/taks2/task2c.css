@@ -1,0 +1,63 @@
+#list{
+	display: flex;
+	list-style: none;
+}
+#first{
+	border: 2px solid black;
+	width: 100px;
+	height: 50px;
+	background : lightblue;
+}
+#second{
+
+	border: 2px solid black;
+	width: 100px;
+	height: 50px;
+	background : lightblue;
+	margin-left: 5px;		
+}
+#third{
+	border: 2px solid black;
+
+	width: 100px;
+	height: 50px;
+	background : lightblue;
+	margin-left: 5px;		
+
+}
+#forth{
+	border: 2px solid black;
+
+	width: 100px;
+	height: 50px;
+	background : lightblue;
+	margin-left: 5px;		
+
+}
+#fifth{
+	border: 2px solid black;
+
+	width: 100px;
+	height: 50px;
+	background : lightblue;
+	margin-left: 5px;		
+
+}
+#firstTxt{
+	color: black;
+}
+#secondTxt{
+	color: white;
+}
+#thirdTxt{
+	color: white;
+}
+#forthTxt{
+	color: white;
+}
+#fifthTxt{
+	color: lightblue;
+}
+p:hover span{
+	font-weight:bold;
+}
