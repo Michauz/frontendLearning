@@ -27,21 +27,22 @@
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="jumbotron">
-						<p>sup</p>
 						<dl>
 							<dt>title</dt>
-							<dd>description of the title</dd>
+							<dd>-description of the title</dd>
 						</dl>
 					</div>
 				</div>
 				<div class="col-lg-4">
-					<div class="jumbotron text-primary">inside jumbo text blue</div>
+					<div class="jumbotron text-primary">inside jumbo text blue
+						<br>
+					</div>
 					<button class="btn btn-primary">blue button</button>
 					<a href="@" class="btn btn-outline-dark">white button with outline</a>
 					<button class="btn btn-warning btn-sm">yellow button</button>
 				</div>
 				<div class="col-lg-4">
-					<div class="jumbotron">another text inside jumbo</div>
+					<div class="jumbotron"><span class="badge badge-danger">this is a badge with the danger color</span></div>
 					<blockquote class="blockquote">
 						<p>how is this a quote wtf</p>
 						<footer class="blockquote-footer">feet lmao</footer>
@@ -51,14 +52,29 @@
 		</div>
 		<br>
 		<div class="container">
-			<div class="dropdown">
-				<button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">yellow dropdown menu</button>			<div class="dropdown-menu">
-						<div class="dropdown-header">A header</div>
-						<a href="@" class="dropdown-item">first option</a>
-						<a href="@" class="dropdown-item">second option</a>
-						<div class="dropdown-divider"></div>
-						<a href="@" class="dropdown-item">third option</a>
+			<div class="row">
+				<div class="col">					
+					<div class="dropdown">
+						<button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">yellow dropdown menu</button>			<div class="dropdown-menu">
+								<div class="dropdown-header">A header</div>
+								<a href="@" class="dropdown-item">first option</a>
+								<a href="@" class="dropdown-item">second option</a>
+								<div class="dropdown-divider"></div>
+								<a href="@" class="dropdown-item">third option (divider added)</a>
+							</div>
 					</div>
+				</div>
+				<div class="col">
+					<div class="alert alert-danger">
+						<button class="close" data-dismiss="alert">&times;</button>
+						<p>ALERT!</p> (with the danger backround color and a button to close the <a href="#" class="alert-link">alert(alert test link)</a> )
+					</div>
+					<div class="alert alert-info alert-dismissible fade show">
+						<button class="close" data-dismiss="alert">&times;</button>
+						<p>ALERT!</p> (same like last one but this one is info color and <a href="#" class="alert-link">fades</a>)
+					</div>
+				</div>
+				<div class="col"></div>
 			</div>
 		</div>
 	</body>
