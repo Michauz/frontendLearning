@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" >
+
+		<script src="js/jquery.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="js/bootstrap.js"></script
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<ul class="list-group">
+						<li class="list-group-item active">first (active)</li>
+						<a href="#" class="list-group-item list-group-item-action">second (clickable)</a>
+						<li class="list-group-item disabled">third (disabled)</li>
+						<li class="list-group-item list-group-item-dark">forth (colored)</li>
+					</ul>
+				</div>
+				<div class="col">
+					<ul class="pagination">
+						<li class="page-item"><a href="@" class="page-link">Previous</a></li>
+						<li class="page-item active"><a href="@" class="page-link">2</a></li>
+						<li class="page-item"><a href="@" class="page-link">3</a></li>
+						<li class="page-item"><a href="@" class="page-link">4</a></li>
+						<li class="page-item disabled"><a href="@" class="page-link">Next</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<ul class="breadcrumb">
+						<li class="breadcrumb-item"><a href="@">Health</a></li>
+						<li class="breadcrumb-item"><a href="@">Food</a></li>
+						<li class="breadcrumb-item"><a href="@">Breakfast</a></li>
+						<li class="breadcrumb-item"><a href="@">Eggs</a></li>
+					</ul>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col">
+					<div class="card">
+						<div class="card-title">This is a card (title)</div>
+						<div class="card-text">- the description (free text)</div>
+						<div class="card-header">The card header</div>
+						<div class="card-body bg-warning">The card body (warning color)</div>
+						<div class="card-footer">The card footer</div>
+					</div>
+				</div>
+				<div class="col">
+					<a href="#collapse1" data-toggle="collapse">Collapsable link</a>
+					<div id="collapse1" class="collapse">Collapsable data (link)</div>
+					<br>
+					<button data-toggle="collapse" data-target="#collapse2">Collapsable button</button>
+					<div id="collapse2" class="collapse">Collapsavle data (button)</div>
+
+					<br>
+					<div id="accordion">
+						<div class="card">
+							<div class="card-header">
+								<a href="#collapse3" class="card-link" data-toggle="collapse">Card header link</a>
+							</div>
+							<div id="collapse3" class="collapse" data-parent="#accordion">
+								<div class="card-body">the collapsable card body</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<ul class="nav nav-pills">
+						<li class="nav-item">
+							<a href="#tab1" data-toggle="tab" class="nav-link" >Tab 1</a>
+						</li>
+						<li class="nav-item">
+							<a href="#tab2" data-toggle="tab" class="nav-link" >Tab 2</a>
+						</li>
+						<li class="nav-item">
+							<a href="#tab3" data-toggle="tab" class="nav-link" >Tab 3</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane container" id="tab1"> first tab data</div>
+						<div class="tab-pane container" id="tab2"> second tab data</div>
+						<div class="tab-pane container" id="tab3"> third tab data</div>
+					</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
